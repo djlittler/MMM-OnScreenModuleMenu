@@ -1,5 +1,5 @@
 /* Magic Mirror
- * Node Helper: MMM-OnScreenMenu
+ * Node Helper: MMM-OnScreenModuleMenu
  *
  * By shbatm
  * MIT Licensed.
@@ -89,7 +89,7 @@ module.exports = NodeHelper.create({
                 break;
             default:
                 // Should never get here, but OK:
-                console.log(`MMM-OnScreenMenu Helper received request to process a ${payload} event
+                console.log(`MMM-OnScreenModuleMenu Helper received request to process a ${payload} event
                                 but there is no handler for this action.`);
         }
     },

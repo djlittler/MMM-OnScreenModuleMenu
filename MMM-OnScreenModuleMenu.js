@@ -1,13 +1,13 @@
 /* global document, Module, window, Mousetrap, console */
 /* jshint esversion:6 */
 /* Magic Mirror
- * Module: MMM-OnScreenMenu
+ * Module: MMM-OnScreenModuleMenu
  *
  * By shbatm
  * MIT Licensed.
  */
 
-Module.register("MMM-OnScreenMenu", {
+Module.register("MMM-OnScreenModuleMenu", {
     defaults: {
         touchMode: true,
         menuName: "MAIN",
